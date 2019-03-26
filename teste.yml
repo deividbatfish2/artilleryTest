@@ -1,0 +1,18 @@
+config:
+  target: 'http://localhost:3001'
+  phases:
+    - duration: 10
+      arrivalRate: 5
+  defaults:
+    headers:
+      Authorization: 'bearer #^6eg#*vUq3aW6ox!$8BSBib2Jsw&e'
+scenarios:
+  - flow:
+    - post:
+        url: "/email"
+        json:
+          from: "no-replay@gmail.com"
+          to: "deividbatfish2@teste.com"
+          subject: "Teste de carga"
+          text: "Texto tanto faz para o teste de carga"
+          html: "<b>Teste de carga com artillery</b>"

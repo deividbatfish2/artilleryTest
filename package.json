@@ -1,0 +1,15 @@
+{
+  "name": "artilleryTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run -o result teste.yml && artillery report result"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.6.0-27"
+  }
+}
