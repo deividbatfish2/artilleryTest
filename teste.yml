@@ -1,11 +1,11 @@
 config:
-  target: 'http://localhost:3001'
+  target: 'http://localhost:3000'
   phases:
-    - duration: 10
-      arrivalRate: 5
+    - duration: 60
+      arrivalRate: 100
   defaults:
     headers:
-      Authorization: 'bearer #^6eg#*vUq3aW6ox!$8BSBib2Jsw&e'
+      Authorization: 'bearer MuR5#F521@A6U9Zm9%dGIM$0'
 scenarios:
   - flow:
     - post:
